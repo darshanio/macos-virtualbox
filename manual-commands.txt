@@ -1,0 +1,6 @@
+.\VBoxManage.exe modifyvm "macOS" --cpu-profile host
+.\VBoxManage.exe modifyvm "macOS" --cpuidremoveall
+
+.\VBoxManage.exe modifyvm "macOS" --cpu-profile "Intel Core i7-5600U"
+
+./macos-guest-virtualbox.sh populate_bootable_installer_virtual_disk and_all_subsequent_stages
